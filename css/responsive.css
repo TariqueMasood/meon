@@ -1,0 +1,50 @@
+@media (max-width: 768px) {
+    html {
+        font-size: 85%;
+    }
+
+    .technology__wrapper {
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+        padding-bottom: 4rem;
+    }
+
+    .technology__card.super {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .technology__card.builder {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .technology__card.karma {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .technology__card.calculator {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .community__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .community__content {
+        padding-top: 2rem;
+    }
+
+    .community__social {
+        text-align: center;
+    }
+
+    .community {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+}
